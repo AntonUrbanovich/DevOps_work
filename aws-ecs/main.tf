@@ -18,5 +18,5 @@ module "alb"{
   security_group_id_vpc = module.vpc.security_group_id
   vpc_for_alb           = module.vpc.aws_vpc
   public_subnet_a       = module.vpc.subnet_id_a
-\
+
 }
